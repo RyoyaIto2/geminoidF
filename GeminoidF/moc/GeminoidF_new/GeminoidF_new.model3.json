@@ -1,0 +1,23 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "GeminoidF_new.moc3",
+		"Textures": [
+			"GeminoidF_new.8192/texture_00.png"
+		],
+		"Physics": "GeminoidF_new.physics3.json",
+		"DisplayInfo": "GeminoidF_new.cdi3.json"
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": []
+		},
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": []
+		}
+	]
+}
