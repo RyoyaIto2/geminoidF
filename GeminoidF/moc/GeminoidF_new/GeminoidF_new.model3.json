@@ -6,13 +6,85 @@
 			"GeminoidF_new.8192/texture_00.png"
 		],
 		"Physics": "GeminoidF_new.physics3.json",
-		"DisplayInfo": "GeminoidF_new.cdi3.json"
+		"DisplayInfo": "GeminoidF_new.cdi3.json",
+		"Expressions": [
+			{
+				"Name": "happy11-1",
+				"File": "../../motion/Joy/Joy_01.exp3.json"
+			},{
+				"Name": "happy11-2",
+				"File": "../../motion/Joy/Joy_02.exp3.json"
+			},{
+				"Name": "happy11-3",
+				"File": "../../motion/Joy/Joy_03.exp3.json"
+			},{
+				"Name": "happy11-4",
+				"File": "../../motion/Joy/Joy_04.exp3.json"
+			},{
+				"Name": "happy11-5",
+				"File": "../../motion/Joy/Joy_05.exp3.json"
+			},{
+				"Name": "happy11-6",
+				"File": "../../motion/Joy/Joy_06.exp3.json"
+			},{
+				"Name": "happy11-7",
+				"File": "../../motion/Joy/Joy_07.exp3.json"
+			},{
+				"Name": "happy11-8",
+				"File": "../../motion/Joy/Joy_08.exp3.json"
+			},{
+				"Name": "happy11-9",
+				"File": "../../motion/Joy/Joy_09.exp3.json"
+			},{
+				"Name": "happy11-10",
+				"File": "../../motion/Joy/Joy_10.exp3.json"
+			},
+			{
+				"Name": "sad11-1",
+				"File": "../../motion/Sad/Sad_01.exp3.json"
+			},{
+				"Name": "sad11-2",
+				"File": "../../motion/Sad/Sad_02.exp3.json"
+			},{
+				"Name": "sad11-3",
+				"File": "../../motion/Sad/Sad_03.exp3.json"
+			},{
+				"Name": "sad11-4",
+				"File": "../../motion/Sad/Sad_04.exp3.json"
+			},{
+				"Name": "sad11-5",
+				"File": "../../motion/Sad/Sad_05.exp3.json"
+			},{
+				"Name": "sad11-6",
+				"File": "../../motion/Sad/Sad_06.exp3.json"
+			},{
+				"Name": "sad11-7",
+				"File": "../../motion/Sad/Sad_07.exp3.json"
+			},{
+				"Name": "sad11-8",
+				"File": "../../motion/Sad/Sad_08.exp3.json"
+			},{
+				"Name": "sad11-9",
+				"File": "../../motion/Sad/Sad_09.exp3.json"
+			},{
+				"Name": "sad11-10",
+				"File": "../../motion/Sad/Sad_10.exp3.json"
+			}
+		],
+		"Motions":{
+				"Idle":[
+
+				]
+		}
 	},
 	"Groups": [
 		{
 			"Target": "Parameter",
 			"Name": "LipSync",
-			"Ids": []
+			"Ids": [
+				"ParamEyeOpenL",
+				"ParamEyeOpenR"				
+			]
 		},
 		{
 			"Target": "Parameter",
