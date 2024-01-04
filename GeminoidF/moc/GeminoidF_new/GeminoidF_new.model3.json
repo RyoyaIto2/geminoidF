@@ -247,19 +247,23 @@
 			{
 				"Name": "surprised11-10",
 				"File": "../../motion/Surprised/Surprised_10.exp3.json"
+			},
+			{
+				"Name": "Neutral",
+				"File": "../../motion/Waiting/Neutral.exp3.json"
 			}
 		],
-		"Motions":{
-			"waiting":[
+		"Motions": {
+			"waiting": [
 				{
-					"File":"../../motion/waiting/EyeBlink.motion3.json"
+					"File": "../../motion/Waiting/EyeBlink.motion3.json"
 				}
 			],
-			"waiting2":[
+			"waiting2": [
 				{
-					"File":"../../motion/waiting/EyeBlink2.motion3.json"
+					"File": "../../motion/Waiting/EyeBlink2.motion3.json"
 				}
-			]		
+			]
 		}
 	},
 	"Groups": [
